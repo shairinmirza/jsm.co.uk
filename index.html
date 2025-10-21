@@ -1,0 +1,252 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSM Plants and Tools Hire Limited</title>
+  <meta name="description" content="Reliable plant and tool hire for construction projects — excavators, mixers, power tools and safety gear.">
+  <style>
+    :root{
+      --accent:#2b9348;
+      --dark:#0f1724;
+      --muted:#6b7280;
+      --card:#ffffff;
+      --bg:#f5f7fb;
+      --glass: rgba(255,255,255,0.7);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#0b1220;line-height:1.5}
+    .container{max-width:1100px;margin:0 auto;padding:24px}/* Header */
+header{background:linear-gradient(90deg, rgba(43,147,72,0.06), rgba(15,23,36,0.02));backdrop-filter: blur(2px);}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0}
+.brand{display:flex;gap:12px;align-items:center}
+.logo{width:48px;height:48px;border-radius:8px;background:var(--accent);display:grid;place-items:center;color:#fff;font-weight:700}
+nav ul{display:flex;gap:18px;list-style:none;padding:0;margin:0}
+nav a{text-decoration:none;color:var(--dark);font-weight:600}
+.cta{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;text-decoration:none}
+
+/* Hero */
+.hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center;padding:48px 0}
+.hero h1{font-size:32px;margin:0 0 12px}
+.lead{color:var(--muted);margin-bottom:18px}
+.features{display:flex;gap:12px;margin-top:18px}
+.feature{background:var(--card);padding:12px;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,36,0.06);flex:1}
+
+/* Card list */
+.services-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:22px}
+.service{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 8px 20px rgba(15,23,36,0.06)}
+.service h3{margin:0 0 8px}
+.service p{margin:0;color:var(--muted)}
+
+/* Quote/Contact column */
+.card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 10px 30px rgba(15,23,36,0.06)}
+form label{display:block;font-size:13px;margin:10px 0 6px}
+input,select,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6e9ee}
+button{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:0;cursor:pointer}
+
+/* About & contact */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:48px 0}
+.about p{color:var(--muted)}
+
+footer{padding:28px 0;color:var(--muted)}
+
+/* Responsive */
+@media (max-width:900px){
+  .hero{grid-template-columns:1fr;}
+  nav ul{display:none}
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">
+        <div class="logo">JSM</div>
+        <div>
+          <div style="font-weight:800">JSM Plants &amp; Tools Hire Ltd</div>
+          <div style="font-size:12px;color:var(--muted)">Quality equipment. On time delivery.</div>
+        </div>
+      </div><nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <a class="cta" href="#quote">Request Quote</a>
+</div>
+
+  </header>  <main class="container" id="home">
+    <section class="hero">
+      <div>
+        <h1>Reliable plant &amp; tool hire for construction projects</h1>
+        <p class="lead">JSM Plants and Tools Hire Limited provides well-maintained machinery, power tools and safety gear for contractors and DIY builders. Flexible rental durations and prompt delivery across the city.</p><div class="features">
+      <div class="feature">
+        <strong>Wide range</strong>
+        <div style="font-size:13px;color:var(--muted)">Excavators, mixers, loaders &amp; more</div>
+      </div>
+      <div class="feature">
+        <strong>Affordable</strong>
+        <div style="font-size:13px;color:var(--muted)">Daily, weekly &amp; monthly pricing</div>
+      </div>
+      <div class="feature">
+        <strong>Fast Delivery</strong>
+        <div style="font-size:13px;color:var(--muted)">Delivery &amp; on-site support</div>
+      </div>
+    </div>
+
+    <div style="margin-top:26px">
+      <a href="#services" style="text-decoration:none;margin-right:12px;padding:10px 14px;border-radius:8px;border:1px solid rgba(11,17,32,0.06);background:#fff;">Our Services</a>
+      <a href="#quote" class="cta">Get a Quote</a>
+    </div>
+
+    <div class="services-grid" style="margin-top:28px">
+      <div class="service">
+        <h3>Excavators &amp; Diggers</h3>
+        <p>Mini and heavy excavators for earthmoving and trenching.</p>
+      </div>
+      <div class="service">
+        <h3>Loaders &amp; Dumpers</h3>
+        <p>Loaders for site clearance and material handling.</p>
+      </div>
+      <div class="service">
+        <h3>Power Tools</h3>
+        <p>Drills, saws, grinders and more for all trades.</p>
+      </div>
+      <div class="service">
+        <h3>Concrete &amp; Compaction</h3>
+        <p>Mixers, vibrators, and plate compactors for strong finishes.</p>
+      </div>
+    </div>
+  </div>
+
+  <aside class="card" id="quote">
+    <h3 style="margin-top:0">Request a Quote</h3>
+    <p style="margin:0 0 12px;color:var(--muted)">Tell us what you need and we'll get back with pricing and availability.</p>
+    <form onsubmit="event.preventDefault(); alert('Quote request submitted — this is a demo.');">
+      <label for="name">Name</label>
+      <input id="name" placeholder="Your full name" required>
+
+      <label for="phone">Phone</label>
+      <input id="phone" placeholder="+91 98765 43210" required>
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="you@example.com" required>
+
+      <label for="equipment">Equipment required</label>
+      <select id="equipment">
+        <option>Excavator</option>
+        <option>Concrete Mixer</option>
+        <option>Power Drill</option>
+        <option>Plate Compactor</option>
+        <option>Other</option>
+      </select>
+
+      <label for="duration">Duration</label>
+      <select id="duration">
+        <option>1 Day</option>
+        <option>1 Week</option>
+        <option>1 Month</option>
+        <option>Custom</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="Details or site address"></textarea>
+
+      <div style="margin-top:12px;display:flex;gap:8px">
+        <button type="submit">Send Request</button>
+        <button type="button" onclick="document.getElementById('name').value='';document.getElementById('phone').value='';document.getElementById('email').value='';document.getElementById('message').value='';">Clear</button>
+      </div>
+    </form>
+  </aside>
+</section>
+
+<section id="services">
+  <h2 style="margin-top:18px">Our Services</h2>
+  <div class="services-grid" style="margin-top:12px">
+    <div class="service">
+      <h3>Plant Hire</h3>
+      <p>Excavators, bulldozers, loaders — short &amp; long-term hire.</p>
+    </div>
+    <div class="service">
+      <h3>Tool Hire</h3>
+      <p>Power tools and manual tools for all construction needs.</p>
+    </div>
+    <div class="service">
+      <h3>Safety Gear</h3>
+      <p>Helmets, harnesses, and personal protective equipment.</p>
+    </div>
+    <div class="service">
+      <h3>Delivery &amp; Support</h3>
+      <p>Transport to site and basic on-site assistance available.</p>
+    </div>
+  </div>
+</section>
+
+<section class="split" id="about">
+  <div class="about card">
+    <h2>About JSM Plants &amp; Tools Hire Limited</h2>
+    <p>Founded in 2020, JSM Plants &amp; Tools Hire Limited aims to simplify access to construction equipment for contractors and project managers. We focus on equipment reliability, safety and fast customer service. Our fleet is serviced regularly and safety-checked before every hire.</p>
+
+    <h3 style="margin-top:16px">Mission</h3>
+    <p class="lead" style="color:var(--muted)">To become the preferred plant and tool hire partner by providing dependable equipment and transparent pricing.</p>
+  </div>
+
+  <div class="card">
+    <h3>Contact Information</h3>
+    <p style="margin:6px 0"><strong>Address:</strong> Plot No. 15, Industrial Area, Mumbai, India</p>
+    <p style="margin:6px 0"><strong>Phone:</strong> +91 98765 43210</p>
+    <p style="margin:6px 0"><strong>Email:</strong> info@jsmplantshires.com</p>
+
+    <h3 style="margin-top:12px">Quick Contact</h3>
+    <form onsubmit="event.preventDefault(); alert('Message sent — demo only.');">
+      <label for="cname">Name</label>
+      <input id="cname" placeholder="Full name">
+      <label for="cemail">Email</label>
+      <input id="cemail" type="email" placeholder="you@example.com">
+      <label for="cmsg">Message</label>
+      <textarea id="cmsg" rows="3"></textarea>
+      <div style="margin-top:10px"><button type="submit">Send</button></div>
+    </form>
+  </div>
+</section>
+
+<section>
+  <h2>Featured Equipment</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:12px">
+    <!-- placeholder images from unsplash; replace with your own images when ready -->
+    <div class="card" style="text-align:center;padding:12px">
+      <img src="https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=123" alt="Excavator" style="width:100%;height:120px;object-fit:cover;border-radius:8px;margin-bottom:8px">
+      <strong>Mini Excavator</strong>
+      <div style="font-size:13px;color:var(--muted)">Compact and efficient for small sites.</div>
+    </div>
+    <div class="card" style="text-align:center;padding:12px">
+      <img src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=456" alt="Concrete Mixer" style="width:100%;height:120px;object-fit:cover;border-radius:8px;margin-bottom:8px">
+      <strong>Concrete Mixer</strong>
+      <div style="font-size:13px;color:var(--muted)">Portable mixers for on-site concrete work.</div>
+    </div>
+    <div class="card" style="text-align:center;padding:12px">
+      <img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&q=60&auto=format&fit=crop&ixlib=rb-4.0.3&s=789" alt="Power Drill" style="width:100%;height:120px;object-fit:cover;border-radius:8px;margin-bottom:8px">
+      <strong>Power Drill Set</strong>
+      <div style="font-size:13px;color:var(--muted)">Cordless drills for trade work.</div>
+    </div>
+  </div>
+</section>
+
+  </main>  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px">
+        <div>
+          <strong>JSM Plants &amp; Tools Hire Limited</strong>
+          <div style="font-size:13px;color:var(--muted)">© 2025 JSM. All rights reserved.</div>
+        </div>
+        <div style="font-size:13px;color:var(--muted)">Designed as a demo site • Built with HTML &amp; CSS</div>
+      </div>
+    </div>
+  </footer></body>
+</html>
